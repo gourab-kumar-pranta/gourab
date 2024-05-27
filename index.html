@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="navbar-brand">Gourab Kumar Pranto</a>
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </span>
+            <ul class="main-nav" id="js-menu">
+                <li><a href="#profile" class="nav-links">Profile</a></li>
+                <li><a href="#education" class="nav-links">Education</a></li>
+                <li><a href="#experience" class="nav-links">Experience</a></li>
+                <li><a href="#skills" class="nav-links">Skills</a></li>
+                <li><a href="#certifications" class="nav-links">Certifications</a></li>
+                <li><a href="#contact" class="nav-links">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="header">
+            <div class="profile left">
+                <img src="profilepic.jpg" alt="Profile Picture">
+            </div>
+            <div class="header-info">
+                <h1>Gourab Kumar Pranto</h1>
+                <h5>Computer Scientist and Engineer</h5>
+            </div>
+        </div>
+        <div class="section" id="profile">
+            <h2>Profile</h2>
+            <div class="item">
+                <p>A dedicated and passionate Computer Scientist and Engineer with expertise in Data Science, Artificial Intelligence, Machine Learning, and Software Engineering. Proven track record in developing innovative solutions and implementing advanced technologies to drive business success.</p>
+            </div>
+        </div>
+        <div class="section" id="education">
+            <h2>Education</h2>
+            <div class="item">
+                <h3>Degree:</h3>
+                <p>Bachelor of Science in Computer Science and Engineering</p>
+            </div>
+            <div class="item">
+                <h3>Institution:</h3>
+                <p>Dafodil International University</p>
+            </div>
+            <div class="item">
+                <h3>Year of Graduation:</h3>
+                <p>2022-2025 (Continuing)</p>
+            </div>
+            <div class="item">
+                <h3>Degree:</h3>
+                <p>HSC in Science</p>
+            </div>
+            <div class="item">
+                <h3>Institution:</h3>
+                <p>Kashimpur Modern School</p>
+            </div>
+            <div class="item">
+                <h3>Year of Graduation:</h3>
+                <p>2018-2020</p>
+            </div>
+        </div>
+        <div class="section" id="experience">
+            <h2>Experience</h2>
+            <div class="item">
+                <h3>Projects:</h3>
+                <ul>
+                    <li>Shop Management System (Java, MySQL)</li>
+                    <li>Food Delivery System </li>
+                    <li>Hospital Consultant </li>
+                </ul>
+            </div>
+        </div>
+        <div class="section" id="skills">
+            <h2>Skills</h2>
+            <div class="item">
+                <p>Data Science, Network, Java, Python, C</p>
+            </div>
+        </div>
+        <div class="section" id="certifications">
+            <h2>Certifications</h2>
+            <div class="item">
+                <ul>
+                    <li>Take OFF (Spring-2022,Fall-2022) - Daffodil International University</li>
+                    <li>Unlock The Algorithm (Fall-2023) - Daffodil International University</li>
+                    <li>Generative AI - Google</li>
+                </ul>
+            </div>
+        </div>
+        <div class="section contact-section" id="contact">
+            <h2>Contact Me</h2>
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <p>01760669681</p>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <p>gourab15-5026@diu.edu.bd <a href="mailto:islam15-5026@diu.edu.bd" class="button">Email</a></p>
+            </div>
+            <div class="contact-item">
+                <a href="https://www.facebook.com/" target="_blank" class="social-button"><i class="fab fa-facebook-square"></i> Facebook</a>
+                
+                <a href="https://www.instagram.com/" target="_blank" class="social-button"><i class="fab fa-instagram"></i> Instagram</a>
+                
+            </div>
+        </div>
+    </div>
+    <script>
+        const mainNav = document.getElementById('js-menu');
+        const navBarToggle = document.getElementById('js-navbar-toggle');
+
+        navBarToggle.addEventListener('click', function () {
+            mainNav.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
